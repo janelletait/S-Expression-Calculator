@@ -8,17 +8,21 @@ Syntax: (FUNCTION EXPR EXPR) where FUNCTION is either "add" or "multiply" and EX
 
 Sample input and output:
 
+
 python calc.py "123"
 
 123
+
 
 python calc.py "(add 3 4)"
 
 7
 
+
 python calc.py "(multiply 3 4)"
 
 12
+
 
 python calc.py "(multiply 3 (add 1 2))"
 
