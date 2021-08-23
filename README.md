@@ -9,14 +9,14 @@ Syntax: (FUNCTION EXPR EXPR) where FUNCTION is either "add" or "multiply" and EX
 Sample input and output:
 
 
-INPUT: 123
+INPUT: 123\
 OUTPUT: 123
 
-INPUT: (add 3 4)
+INPUT: (add 3 4)\
 OUTPUT: 7
 
-INPUT: (multiply 3 4)
+INPUT: (multiply 3 4)\
 OUTPUT: 12
 
-INPUT: (multiply 3 (add 1 2))
+INPUT: (multiply 3 (add 1 2))\
 OUTPUT: 9
