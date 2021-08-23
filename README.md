@@ -1,6 +1,6 @@
 # S-Expression-Calculator
 
-This calculator simplifies and evaluates s-expressions from the command line.
+This calculator simplifies and evaluates s-expressions via standard input.
 
 Supported functions: addition and multiplication
 
@@ -9,21 +9,14 @@ Syntax: (FUNCTION EXPR EXPR) where FUNCTION is either "add" or "multiply" and EX
 Sample input and output:
 
 
-python calc.py "123"
+INPUT: 123
+OUTPUT: 123
 
-123
+INPUT: (add 3 4)
+OUTPUT: 7
 
+INPUT: (multiply 3 4)
+OUTPUT: 12
 
-python calc.py "(add 3 4)"
-
-7
-
-
-python calc.py "(multiply 3 4)"
-
-12
-
-
-python calc.py "(multiply 3 (add 1 2))"
-
-9
+INPUT: (multiply 3 (add 1 2))
+OUTPUT: 9
